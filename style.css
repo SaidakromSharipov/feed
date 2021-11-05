@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .ul1{
+    display: flex;
+    width: 550px;
+    justify-content: space-around;
+    position: relative;
+    left:-11rem;
+    list-style-type: none;
+    font-weight: 700;
+    height: 100%;
+    align-items: center;
+
+}
+
+.navbar .ul1 .links{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navbar .ul1 .links:hover{
+    background: black;
+    padding: 5px;
+    border-radius: 25px;
+    color:white;
+    transition: 0.2s ease;
+}
+
+.navbar .ul2 .setup{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navbar .ul2 .setup:hover{
+    background: black;
+    padding: 5px;
+    border-radius: 25px;
+    color:white;
+}
+
+.navbar .ul2{
+    list-style-type: none;
+    display: flex;
+    width: 230px;
+    justify-content: space-around;
+    font-weight: 700;
+    position: relative;
+    right: 30px;
+    transition: 0.2s ease;
+}
+
+.navbar .logo{
+    font-size: 24px;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+}
+
+.container{
+width: 100%;
+height: 650px;
+background: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.box{
+    background-image: url(./img/1440x640_WM_ECO.webp);
+    width: 95%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+color: white;
+}
+
+.btn-line{
+display: flex;
+width: 93%;
+position: absolute;
+justify-content: space-between;
+}
+
+.btn-line .btn-l, .btn-r{
+background: rgba(26, 24, 24, 0.5);
+font-size: 20px;
+color: white;
+border-radius: 50%;
+width: 36px;
+height: 36px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn-line .btn-l:hover{
+background: rgb(26, 24, 24);
+}
+
+.btn-line .btn-r:hover{
+background: rgb(26, 24, 24);
+}
+
+
+.box .text{
+color: black;
+position: relative;
+width: 480px;
+font-size: 22px;
+left: 15rem;
+top: -3rem;
+
+}
+
+
+.submit{
+width: 137px;
+height: 38px;
+background: black;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 25px;
+font-size: 18px;
+position: relative;
+left: 4rem;
+cursor: pointer;
+}
+
+.submit:hover{
+background: black;
+background: rgba(0, 0, 0, 0.500);
+}
+
+
+
+
+
+
